@@ -71,7 +71,128 @@ console.log(fruits.lastIndexOf("apple"));
 //console.log(fruits.some());
 
 
+// const fruit = ["apple","apple","ball","calt"];
+// const someArg = fruit.some((item,i)=> item ==="bal"
+// )
+// console.log(someArg);
+
+// const everyArg = fruit.every((item,i)=>{
+//        return item.includes("a"&&"l")})
+//        console.log(everyArg);
+
+//       function maxvalue(m){
+//             return totalval =  m.reduce((item,i)=>{return item > i ? (item):(i)});
+//       }
+//       console.log(maxvalue([-10,-2,-11]));
+
+//       function percentagegenerator(a,b) {
+//               return b/a;
+
+              
+//       }
+//       console.log(percentagegenerator(50,100));
+
+//       function
+// myFunction
+// (
+// a, b, c, d, e, f
+// )
+// {
+// return Math.pow(((c-(a + b))*d / e),f);
+
+// }
+// console.log(myFunction(6,5,4,3,2,1));
+
+// // Write a function that takes two strings (a and b) as arguments
+// // Return the number of times a occurs in b
+// function myFunction1(a,b){
+// return b.split(a).length -1;
+// }
+// console.log(myFunction1('w',"howow"));
 
 
 
+// Write a function that takes a number (a) as argument
+// If a is a whole number (has no decimal place), return true
+// Otherwise, return false
+// function myFunction(a)
+// {
+//  return ((a*10 % 10 == 0)? true:false)
 
+// }
+// console.log(myFunction(12.288));
+
+// Write a function that takes two numbers (a and b) as arguments
+// If a is smaller than b, divide a by b
+// Otherwise, multiply both numbers
+// Return the resulting value
+// function myFunction(a, b)
+// {
+
+// return ((a<b) ? (a/b):(a*b))
+// }
+// console.log(myFunction(10,100));
+
+// Write a function that takes two strings (a and b) as arguments
+// If a contains b, append b to the beginning of a
+// If not, append it to the end
+// Return the concatenation
+// function myFunction(a, b)
+// {
+// let num = a.concat(b).length;
+// for(let i=0;i<num;i++){
+//       return  (a.includes(b)) ? (b.concat(a)):(a.concat(b));
+// }
+
+// }
+// console.log(myFunction('lips','s'));
+
+
+// Write a function that takes a number (a) as argument
+// Round a to the 2nd digit after the comma
+// Return the rounded number
+// function
+// myFunction(a)
+// {
+// return Math.round(a*1000)/1000;
+// // return Number(a.toFixed(2));
+// }
+// console.log(myFunction(1233.55660));
+
+
+// Write a function that takes a number (a) as argument
+// Split a into its individual digits and return them in an array
+// Tipp: you might want to change the type of the number for the splitting
+                        // function myFunction(a)
+                        // {
+                        // return a.toString().split("").map(a=>{
+                        //         return Number(a)
+                        // })
+                        // }
+                        // console.log(myFunction(1011));
+// It seems like something happened to these strings
+// Can you figure out how to clear up the chaos?
+// Write a function that joins these strings together such that they form the following words:
+// 'Javascript', 'Countryside', and 'Downtown'
+// You might want to apply basic JS string methods such as replace(), split(), slice() etc
+                //      function chaosSolve(a,b){
+                //              //a
+                //              let solvedA = String(a).toLowerCase().split('%');
+                //              //b
+                //              let solvedB = String(b).toLowerCase().replace('%','').split('').reverse();
+                         
+                //              let  solvedAll = solvedA.concat(solvedB);
+                //              let solvedC =  solvedAll.toString();
+                //               solvedC[0].toUpperCase();
+
+                             
+                       
+
+                //      }   
+                //      console.log(chaosSolve('ja%v%a','t%pircs'));
+
+// This challenge is a little bit more complex
+// Write a function that takes a number (a) as argument
+// If a is prime, return a
+// If not, return the next higher prime number
+        
