@@ -175,24 +175,49 @@ console.log(fruits.lastIndexOf("apple"));
 // Write a function that joins these strings together such that they form the following words:
 // 'Javascript', 'Countryside', and 'Downtown'
 // You might want to apply basic JS string methods such as replace(), split(), slice() etc
-                //      function chaosSolve(a,b){
-                //              //a
-                //              let solvedA = String(a).toLowerCase().split('%');
-                //              //b
-                //              let solvedB = String(b).toLowerCase().replace('%','').split('').reverse();
+                     function chaosSolve(a,b){
+                             //a
+                             let solvedA = String(a).toLowerCase().split('%');
+                             //b
+                             let solvedB = String(b).toLowerCase().replace('%','').split('').reverse();
                          
-                //              let  solvedAll = solvedA.concat(solvedB);
-                //              let solvedC =  solvedAll.toString();
-                //               solvedC[0].toUpperCase();
+                             let  solvedAll = solvedA.concat(solvedB);
+                        let c = solvedAll.toString().replaceAll(',','');
+                        return c.charAt(0).toUpperCase()+c.slice(1);
 
                              
                        
 
-                //      }   
-                //      console.log(chaosSolve('ja%v%a','t%pircs'));
+                     }   
+                     console.log(chaosSolve('c%ountry','edis'));
 
 // This challenge is a little bit more complex
 // Write a function that takes a number (a) as argument
 // If a is prime, return a
 // If not, return the next higher prime number
-        
+        //lets write to see if the number itself is prime or not
+        // function isPrime(num){
+        //         if (num === 2) {
+        //                 return true;
+        //                 } else if(num > 1){
+        //                         for (var i =2; i<num; i++){
+        //                                 if (num % i !== 0) {return true;}
+        //                                 else if (num === i*i){
+        //                                         return false;
+        //                                 } else {
+        //                                         return false;
+        //                                 }
+        //                         }
+        //                 }
+        //                 else { for (let i=0;i<num*100;i++){
+        //                         if (isPrime(i) === true){
+        //                                 console.log(i);
+        //                         }
+        //                 }
+        //                         return false;
+        //                 }
+                       
+        // }
+      
+       
+        // console.log(isPrime(138));
